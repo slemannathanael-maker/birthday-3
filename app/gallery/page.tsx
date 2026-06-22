@@ -5,17 +5,17 @@ const UNSPLASH = "https://images.unsplash.com/photo-";
 
 const photos = [
   { id: "1761574030105-c5b4dc65a76d", span: "row-span-2" },
-  { id: "1573574695985-ddbf1c72fb07", span: "" },
+  { id: "1779974797057-e10cb9afb336", span: "" },
   { id: "1768776184419-b4df9f9844a6", span: "" },
   { id: "1746587224861-521244472226", span: "row-span-2" },
-  { id: "1666950948031-18691c4a80af", span: "" },
+  { id: "1765947390055-c5187b491ba0", span: "" },
   { id: "1727764894973-28e7283a600c", span: "" },
-  { id: "1509316554658-04f9287cdb78", span: "row-span-2" },
-  { id: "1572085458210-049d578b2676", span: "" },
+  { id: "1759209816487-0677a49f01b8", span: "row-span-2" },
+  { id: "1779974797037-686f01c0ace6", span: "" },
   { id: "1762918397943-52319c1cebf3", span: "" },
   { id: "1758870041148-31d28fdf34d9", span: "row-span-2" },
-  { id: "1778641603107-850c6a5f66c0", span: "" },
-  { id: "1766086893043-d38b06175015", span: "" },
+  { id: "1763236606697-01190f65d493", span: "" },
+  { id: "1701112501523-bc9f48e3753e", span: "" },
 ];
 
 export default function GalleryPage() {
