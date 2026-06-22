@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import Link from "next/link";
+import SideNav from "@/components/SideNav";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -10,8 +11,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Confetti Co. — Birthday & Milestone Photo Booths",
-  description: "Fun, colorful photo booth rentals for birthdays, Sweet 16s, and every milestone worth celebrating.",
+  title: "Confetti Co. | Birthday and Milestone Photo Booths",
+  description: "Fun photo booth rentals for birthdays, Sweet 16s, and every milestone worth celebrating.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -23,17 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="text-charcoal font-black text-xl tracking-tight">
               Confetti<span className="text-coral">.</span>Co
             </Link>
-            <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate">
-              <Link href="/gallery" className="hover:text-charcoal transition-colors">Gallery</Link>
-              <Link href="/pricing" className="hover:text-charcoal transition-colors">Pricing</Link>
-              <Link href="/contact" className="hover:text-charcoal transition-colors">Contact</Link>
-            </nav>
-            <Link
-              href="/contact"
-              className="text-sm font-bold bg-coral text-white px-5 py-2.5 rounded-full hover:bg-coral-dark transition-colors"
-            >
-              Book Now
-            </Link>
+            <SideNav />
           </div>
         </header>
 
@@ -55,8 +46,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </nav>
               <div className="space-y-2 text-sm">
                 <p className="text-xs font-bold uppercase tracking-widest text-muted mb-3">Say Hello</p>
-                <a href="mailto:hello@confetticophotos.com" className="block text-slate font-semibold hover:text-charcoal transition-colors">hello@confetticophotos.com</a>
                 <a href="tel:+10000000000" className="block text-slate font-semibold hover:text-charcoal transition-colors">(000) 000-0000</a>
+                <a href="mailto:hello@confetticophotos.com" className="block text-slate font-semibold hover:text-charcoal transition-colors">hello@confetticophotos.com</a>
                 <p className="text-slate font-medium">[City, State]</p>
               </div>
             </div>

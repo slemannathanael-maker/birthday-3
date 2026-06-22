@@ -39,12 +39,12 @@ const occasions = [
 ];
 
 const galleryPreviewIds = [
-  "1531956531700-dc0ee0f1f9a5",
-  "1467803738586-46b7eb7b16a1",
-  "1541532713592-79a0317b6b77",
-  "1558618666-fcd25c85cd64",
-  "1502035618526-6b2f1f5bca1b",
-  "1529543544282-ea669407fca3",
+  "1761574030105-c5b4dc65a76d",
+  "1573574695985-ddbf1c72fb07",
+  "1746587224861-521244472226",
+  "1666950948031-18691c4a80af",
+  "1509316554658-04f9287cdb78",
+  "1762918397943-52319c1cebf3",
 ];
 
 const testimonials = [
@@ -86,7 +86,7 @@ export default function HomePage() {
                 confetti.
               </h1>
               <p className="text-lg text-slate font-semibold max-w-md mb-10 leading-relaxed">
-                Birthdays, Sweet 16s, milestone bashes — we bring the booth, the props, and the energy. You bring the birthday person.
+                Birthdays, Sweet 16s, and milestone parties. We bring the booth, the props, and the energy. You just show up.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

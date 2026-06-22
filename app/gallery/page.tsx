@@ -4,18 +4,18 @@ import FadeIn from "@/components/FadeIn";
 const UNSPLASH = "https://images.unsplash.com/photo-";
 
 const photos = [
-  { id: "1527529482837-4698179dc6ce", span: "row-span-2" },
-  { id: "1530103862676-de8c9debad1d", span: "" },
-  { id: "1513151233558-d860c5398176", span: "" },
-  { id: "1531956531700-dc0ee0f1f9a5", span: "row-span-2" },
-  { id: "1583875762487-5f8f7c718d14", span: "" },
-  { id: "1467803738586-46b7eb7b16a1", span: "" },
-  { id: "1541532713592-79a0317b6b77", span: "row-span-2" },
-  { id: "1558618666-fcd25c85cd64",   span: "" },
-  { id: "1502035618526-6b2f1f5bca1b", span: "" },
-  { id: "1529543544282-ea669407fca3", span: "row-span-2" },
-  { id: "1545696563-af8f6ec2295a",   span: "" },
-  { id: "1514525253161-7a46d19cd819", span: "" },
+  { id: "1761574030105-c5b4dc65a76d", span: "row-span-2" },
+  { id: "1573574695985-ddbf1c72fb07", span: "" },
+  { id: "1768776184419-b4df9f9844a6", span: "" },
+  { id: "1746587224861-521244472226", span: "row-span-2" },
+  { id: "1666950948031-18691c4a80af", span: "" },
+  { id: "1727764894973-28e7283a600c", span: "" },
+  { id: "1509316554658-04f9287cdb78", span: "row-span-2" },
+  { id: "1572085458210-049d578b2676", span: "" },
+  { id: "1762918397943-52319c1cebf3", span: "" },
+  { id: "1758870041148-31d28fdf34d9", span: "row-span-2" },
+  { id: "1778641603107-850c6a5f66c0", span: "" },
+  { id: "1766086893043-d38b06175015", span: "" },
 ];
 
 export default function GalleryPage() {
