@@ -30,21 +30,21 @@ const steps = [
 ];
 
 const occasions = [
-  { label: "Sweet 16",      color: "bg-coral-light border-coral/20",   accent: "text-coral" },
-  { label: "18th Birthday", color: "bg-yellow-light border-yellow/20", accent: "text-yellow" },
-  { label: "21st Birthday", color: "bg-teal-light border-teal/20",     accent: "text-teal" },
-  { label: "30th & Up",     color: "bg-violet-light border-violet/20", accent: "text-violet" },
-  { label: "Kids Party",    color: "bg-coral-light border-coral/20",   accent: "text-coral" },
-  { label: "Any Milestone", color: "bg-yellow-light border-yellow/20", accent: "text-yellow" },
+  { label: "Sweet 16",          color: "bg-coral-light border-coral/20",   accent: "text-coral" },
+  { label: "Officially 18",     color: "bg-yellow-light border-yellow/20", accent: "text-yellow" },
+  { label: "21st Birthday",     color: "bg-teal-light border-teal/20",     accent: "text-teal" },
+  { label: "30+ and Fabulous",  color: "bg-violet-light border-violet/20", accent: "text-violet" },
+  { label: "Little VIPs",       color: "bg-coral-light border-coral/20",   accent: "text-coral" },
+  { label: "Any Excuse to Party", color: "bg-yellow-light border-yellow/20", accent: "text-yellow" },
 ];
 
 const galleryPreviewIds = [
-  "1761574030105-c5b4dc65a76d",
-  "1573574695985-ddbf1c72fb07",
+  "1779974797057-e10cb9afb336",
+  "1765947390055-c5187b491ba0",
   "1746587224861-521244472226",
-  "1666950948031-18691c4a80af",
-  "1509316554658-04f9287cdb78",
-  "1762918397943-52319c1cebf3",
+  "1759209816487-0677a49f01b8",
+  "1763652566301-e88adc3d3d89",
+  "1701112501523-bc9f48e3753e",
 ];
 
 const testimonials = [
